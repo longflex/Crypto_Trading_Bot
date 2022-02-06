@@ -38,7 +38,7 @@ PHPTradingBot requires PHP v7.x to run.
 Enter these commands to install
 
 ```sh
-$ git clone https://github.com/kavehs87/PHPTradingBot.git
+$ git clone https://github.com/longflex/Crypto_Trading_Bot.git
 $ cd PHPTradingBot
 $ composer install
 $ cp .env.example .env
@@ -80,4 +80,4 @@ License
 MIT
 
 
-**Free Software, Hell Yeah!**
+**Free Software, Long Flex!**
