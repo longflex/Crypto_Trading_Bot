@@ -25,7 +25,9 @@ class HomeController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth');
+        error_log("\n con \n", 3, "c:/my-errors.log");
+        //$this->middleware('auth');
+        error_log("\n con1 \n", 3, "c:/my-errors.log");
     }
 
     public function index()
@@ -70,6 +72,7 @@ class HomeController extends Controller
 
     public function positions($id = null)
     {
+        error_log("\n posi \n", 3, "c:/my-errors.log");
         $open = Order::getOpenPositions();
         $count = count(Order::getOpenPositions(true));
         $order = null;
